@@ -27,7 +27,7 @@ class Run_reader : public AlgBase //Change the name to something more descriptiv
         
         // Define variables that are globally used
 	TTimeStamp timestamp;
-        int total_npe;
+        float total_npe;
         std::vector<int> PMTID; 
         std::vector<float> charge ,time;
         TString trigger_type;
